@@ -1,3 +1,14 @@
+# !! This is a fork !!
+
+This project was forked due to the code below fails on Microsoft Edge due to the `RegExp` class not having the `.flags` property.
+```javascript
+if (isRegExp) {
+  Hoek.assert(!pattern.flags.includes('g') && !pattern.flags.includes('y'), 'pattern should not use global or sticky mode');
+}
+```
+
+Joi is not intended for usage in the browser, but this fix seems to work - so it will do for now.
+
 <a href="http://hapijs.com"><img src="https://raw.githubusercontent.com/hapijs/assets/master/images/family.png" width="180px" align="right" /></a>
 
 # joi
