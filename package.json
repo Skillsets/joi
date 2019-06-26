@@ -1,7 +1,7 @@
 {
   "name": "@skillsets/joi",
   "description": "Object schema validation",
-  "version": "15.0.3",
+  "version": "15.0.4",
   "homepage": "https://github.com/hapijs/joi",
   "repository": "git://github.com/hapijs/joi",
   "main": "lib/index.js",

@@ -30,7 +30,7 @@ This is joi, joi allows you to create *blueprints* or *schemas* for JavaScript o
  ```
 
 ## API
-See the detailed [API Reference](https://github.com/hapijs/joi/blob/v15.0.3/API.md).
+See the detailed [API Reference](https://github.com/hapijs/joi/blob/v15.0.4/API.md).
 
 ## Example
 
